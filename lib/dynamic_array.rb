@@ -5,8 +5,8 @@ class DynamicArray
 
   def initialize
     @length = 0
-    @capacity = 8;
-    @store = StaticArray.new(0)
+    @capacity = 8
+    @store = StaticArray.new(@capacity)
   end
 
   # O(1)
